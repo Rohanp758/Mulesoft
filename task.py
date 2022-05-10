@@ -27,12 +27,6 @@ cursor.execute("SELECT NAME FROM MOVIES WHERE ACTOR='PRABHAS'")
 #the last query's output is displayed 
 
 
-#additional commands
-#cursor.execute("SELECT * FROM MOVIES WHERE YEAR_OF_RELEASE=2008")-----query based on year of release
-#------DELETE COMMAND-----cursor.execute("DELETE FROM MOVIES WHERE DIRECTOR='FARHAN'")--------entire row is deleted
-#------DROP COMMAND-----cursor.execute("DROP TABLE MOVIES")------movies table is completly deleted
-#------ALTER COMMAND-----cursor.execute("ALTER TABLE MOVIES ADD(RATING INTEGER)")--------addition of new column
-
 
 #displaying the output
 res=cursor.fetchall()
